@@ -1,5 +1,7 @@
 package starter;
 
+import java.util.ArrayList;
+import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,14 +10,15 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.ArrayList;
-import java.util.List;
 import org.springframework.context.annotation.ComponentScan;
+import starter.domain.Book;
+import starter.domain.Genre;
+import starter.service.BookService;
 
 @ComponentScan
 @EnableAutoConfiguration
 @SpringBootApplication
-public class ElasticsearchSpringDataApplication implements CommandLineRunner{
+public class ElasticsearchSpringDataApplication implements CommandLineRunner {
 
     private static final Logger logger = LoggerFactory.getLogger(ElasticsearchSpringDataApplication.class);
 
@@ -23,7 +26,7 @@ public class ElasticsearchSpringDataApplication implements CommandLineRunner{
     private BookService bookService;
 
     public static void main(String[] args) {
-        SpringApplication.run(ElasticsearchSpringDataApplication.class, args);
+        SpringApplication.run(ElasticsearchSpringDataApplication.class,args);
     }
 
     private void addBooks() {

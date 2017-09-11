@@ -1,4 +1,4 @@
-package starter;
+package starter.domain;
 
 /**
  * Created by Nasir on 12-09-2015.

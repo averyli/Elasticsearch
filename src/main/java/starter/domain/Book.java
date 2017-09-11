@@ -1,11 +1,12 @@
-package starter;
+package starter.domain;
 
+
+
+import java.util.List;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
-
-import java.util.List;
 
 /**
  * Created by Nasir on 12-09-2015.
@@ -20,9 +21,21 @@ public class Book {
 
     @Field(type = FieldType.Nested)
     private List<Genre> genre;
-
+    
     private Double rating;
-
+    
+    public Book() {
+    }
+    
+    public Book(String name) {
+        this.name = name;
+    }
+    
+    public Book(String name, Double rating) {
+        this.name = name;
+        this.rating = rating;
+    }
+    
     public String getId() {
         return id;
     }

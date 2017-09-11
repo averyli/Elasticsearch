@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: joda-time:joda-time-hibernate:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time-hibernate/unknown/joda-time-hibernate-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time-hibernate/unknown/joda-time-hibernate-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time-hibernate/unknown/joda-time-hibernate-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

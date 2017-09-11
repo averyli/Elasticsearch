@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.itextpdf:itextpdf:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/unknown/itextpdf-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/unknown/itextpdf-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/unknown/itextpdf-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
